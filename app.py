@@ -7,7 +7,7 @@ import textdistance as td
 
 app = Flask(__name__)
 
-data_api = pd.read_csv('C:/Users/a.nogue.sanchez/OneDrive - Avanade/Documents/Perso/OpenClassrooms/OpenClassrooms_DataScience/Data_Science_V1_Projects/P3 - Developpez un moteur de recommandations de films/Results/data_api.csv')
+data_api = pd.read_csv('data_api.csv')
 
 count = CountVectorizer(stop_words='english')
 count_matrix = count.fit_transform(data_api['soup'])
