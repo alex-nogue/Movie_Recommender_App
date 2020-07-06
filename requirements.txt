@@ -3,4 +3,4 @@ pandas==0.23.4
 gunicorn==19.9.0
 numpy>=1.9.2
 scikit-learn>=0.18
-textdistance=4.2.0
+textdistance==4.2.0
